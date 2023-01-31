@@ -1,10 +1,22 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+}
+
+.plants {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  gap: 52px;
+}
+
+.plant {
+  max-width: 200px;
 }
 
 .title {
